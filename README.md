@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Freebie Direct Messaging App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was a self assessment task
+Project hosted link: [https://freebie-messaging.netlify.app/] 
 
 ## Available Scripts
 
