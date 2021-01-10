@@ -7,6 +7,9 @@ export default function Chat() {
   const [enableCall, setEnableCall] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const sendMessage = () => {
+    if (!inputValue) {
+      return;
+    }
     let tempChat = chat;
     tempChat.unshift({
       source: "me",
@@ -62,9 +65,7 @@ export default function Chat() {
               placeholder="Message Michael"
               id="amount"
               onChange={(e) => setInputValue(e.target.value)}
-              onKeyDown={(e) =>
-                e.key === "Enter" && e.target.value.length > 0 && sendMessage()
-              }
+              onKeyDown={(e) => e.key === "Enter" && sendMessage()}
             />
             <div
               class="ui small basic icon buttons"

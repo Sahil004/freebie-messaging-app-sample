@@ -1,7 +1,7 @@
 # Freebie Direct Messaging App
 
 This project was a self assessment task \
-Project hosted link: [https://freebie-messaging.netlify.app/] 
+Project hosted link: [https://freebie-messaging.netlify.app/](https://freebie-messaging.netlify.app/)
 
 ## Available Scripts
 
