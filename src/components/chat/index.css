@@ -1,0 +1,14 @@
+.ui.basic.button:hover,
+.ui.basic.buttons .button:hover,
+.ui.basic.button:focus,
+.ui.basic.buttons .button:focus {
+  background: #f0f0fb !important;
+}
+
+.chat-icons > i {
+  font-size: 1.2em;
+}
+
+.ui.action.input:not([class*="left action"]) > input:focus {
+  border: 0px !important;
+}
